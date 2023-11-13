@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "iot1001-a4-looping-the-first-place",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
+		}
+	}
+}
