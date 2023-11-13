@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "sum",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python -m pytest tests/test_sum.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "sum_even",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python -m pytest tests/test_sum_even.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 8
+    },
+    {
+      "name": "sum_odd",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python -m pytest tests/test_sum_odd.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 8
+    },
+    {
+      "name": "compound",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python -m pytest tests/test_compound.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "mortgage",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python -m pytest tests/test_mortgage.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    }
+  ]
+}
